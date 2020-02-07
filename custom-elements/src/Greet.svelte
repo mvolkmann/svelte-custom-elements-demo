@@ -1,4 +1,4 @@
-<!-- <svelte:options tag="rmv-greet" /> -->
+<!-- <svelte:options tag="svelte-greet" /> -->
 <svelte:options tag={null} />
 
 <script>

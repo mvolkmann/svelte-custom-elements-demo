@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+//import './svelte-elements';
 import {Counter, Greet} from './svelte-elements';
 customElements.define('svelte-greet', Greet);
 customElements.define('svelte-counter', Counter);

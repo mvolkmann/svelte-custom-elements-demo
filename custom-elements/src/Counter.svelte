@@ -1,4 +1,4 @@
-<!-- <svelte:options tag="rmv-counter" /> -->
+<!-- <svelte:options tag="svelte-counter" /> -->
 <svelte:options tag={null} />
 
 <script>
