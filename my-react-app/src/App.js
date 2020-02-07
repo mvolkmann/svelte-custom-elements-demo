@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <rmv-greet name="Mark" />
-      <rmv-counter />
+      <svelte-greet name="Mark" />
+      <svelte-counter />
     </div>
   );
 }
