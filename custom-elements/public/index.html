@@ -10,9 +10,16 @@
 	<link rel='stylesheet' href='/global.css'>
 	<link rel='stylesheet' href='/build/bundle.css'>
 
-	<script defer src='/build/bundle.js'></script>
+	<script type="module">
+		import { Greet, Counter } from '/build/bundle.js';
+
+		customElements.define('my-greet', Greet);
+		customElements.define('my-counter', Counter);
+	</script>
 </head>
 
 <body>
+	<my-greet></my-greet>
+	<my-counter></my-counter>
 </body>
 </html>
